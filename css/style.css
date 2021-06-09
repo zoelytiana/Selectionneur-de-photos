@@ -1,0 +1,59 @@
+/*  VISUALISATION DES BLOCS  */
+
+/*div, header, section, article, aside, nav {
+	border: 1px dashed rgba(0,0,0,0.15);
+	background-color: rgba(0,0,0,0.05);
+}*/
+
+/*.clear {
+	border: 1px dashed red;
+}*/
+
+/*GLOBAL */
+body {
+	margin: 0;
+	color: #424953;
+	line-height: 1.8;
+	font-family: "Open Sans", Arial, sans-serif;
+    font-size: 1em;
+}
+main {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+/* CONTENT */
+.container {
+    
+}
+li{
+
+}
+.flex {
+
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.photo {
+    padding: 0.5em;
+    border-radius: 30px; 
+}
+
+.selected{
+	border: 5px solid forestgreen;   
+}
+
+.on{
+    border: 5px solid silver;   
+    background-color: gold;
+}
+
+ul li {
+	list-style-type:none;
+	text-align: left;
+	font-size: 0.9em;
+	margin: 1em;
+}
